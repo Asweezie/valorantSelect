@@ -1,0 +1,35 @@
+*{
+    box-sizing:border-box;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: red 2px solid;
+    height: 1100px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('val/fracture.jpg');
+}
+
+#container1 >img, #container2 > img {
+    width: 8%;
+    margin: 0 2.5px 0 2.5px;
+}
+
+#container1, #container2 {
+    display: flex;
+    
+    margin: 2.5px;
+    width: 50%;
+    justify-content: center;
+}
+
+img:hover {
+    opacity: .4;
+  }
+
+

@@ -20,6 +20,8 @@
 //   audio.play();
 // });
 
+document.getElementById("home").volume = .1;
+
 document.querySelector('#astra').addEventListener('click', function(){
     document.querySelector('#mainContainer').style.backgroundImage = "url('val/astra.gif')";
     select.pause(); select.currentTime = 0; select.play();

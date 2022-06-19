@@ -1,7 +1,7 @@
 // document.querySelector('#rankings').addEventListener('click', getTop100)
 
 // function getTop100() {
-//     fetch('https://americas.api.riotgames.com/lor/ranked/v1/leaderboards?api_key=RGAPI-9cbfe7be-8dc7-4074-8472-1b1ef84b824a')
+//     fetch('https://americas.api.riotgames.com/lor/ranked/v1/leaderboards?api_key=RGAPI-c78a9860-76c5-4070-9cba-5839e8a785ec')
 //   .then(response => response.json())
 //   .then(data =>{
 //     // console.log(data.players[0])
@@ -19,8 +19,6 @@
 //   audio.volume = 0.2;
 //   audio.play();
 // });
-
-document.getElementById("home").volume = .1;
 
 document.querySelector('#astra').addEventListener('click', function(){
     document.querySelector('#mainContainer').style.backgroundImage = "url('val/astra.gif')";

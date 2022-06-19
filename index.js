@@ -33,7 +33,7 @@ document.querySelector('#breach').addEventListener('click', function(){
     select.pause(); select.currentTime = 0; select.play();
     breachA.volume = .1
     breachA.pause(); breachA.currentTime = 0; breachA.play();
-    cancelVoice(beach);
+    cancelVoice(breach);
 })
 
 document.querySelector('#brimstone').addEventListener('click', function(){

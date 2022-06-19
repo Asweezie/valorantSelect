@@ -21,10 +21,11 @@
 
 #container1, #container2 {
     display: flex;
-    
+    position: relative;
     margin: 2.5px;
-    width: 50%;
+    width: 55%;
     justify-content: center;
+    bottom: 20px;
 }
 
 img:hover {

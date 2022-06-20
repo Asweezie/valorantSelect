@@ -72,7 +72,7 @@ document.querySelector('#fade').addEventListener('click', function(){
     document.querySelector('#mainContainer').style.backgroundImage = "url('val/fade.gif')";
     select.pause(); select.currentTime = 0; select.play();
     fadeA.volume = .1
-    fadeA.pause(); fadeA.currentTime = 0; fadeA.play();
+    fadeA.pause(); fadeA.currentTime = 0; fadeA.play()
     cancelVoice(fade);
 })
 

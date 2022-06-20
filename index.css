@@ -2,11 +2,15 @@
     box-sizing:border-box;
 }
 
+body, html {
+    height: 100%;
+}
+
 #mainContainer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 1050px;
+    height: 100%;
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
